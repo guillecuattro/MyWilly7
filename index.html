@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- PWA / Theme -->
+    <meta name="theme-color" content="#0F1117" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MyWilly" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- SEO -->
+    <meta name="description" content="MyWilly — Tu panel de inversiones personal" />
+    <title>MyWilly</title>
+
+    <!-- Apple touch icons -->
+    <link rel="apple-touch-icon" href="/icons/icon_app_180.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon_app_152.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon_app_167.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon_app_180.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon_app_192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon_app_512.png" />
+
+    <!-- Splash screen background -->
+    <style>
+      html, body, #root {
+        margin: 0;
+        padding: 0;
+        background: #0F1117;
+        min-height: 100svh;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
